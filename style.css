@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    background-color: #ccc;
+ /*   background-image: url(pti.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1.5em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+    background-image: url("C:\Users\hp\Documents\School work\pti.jpeg");
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1em;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 5px;
+    background: #f9f9f9;
+  /*  background-image: url("C:\Users\hp\Documents\School work\pti.jpeg");*/
+  background-image: url(pti.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    text-align: center;
+    padding: 1em;
+    background: #333;
+    color: #fff;
+}
+a:hover{
+    margin-right: 0.7rem;
+    font-weight: bold;
+    color: burlywood;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
